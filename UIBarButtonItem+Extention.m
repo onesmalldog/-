@@ -18,7 +18,7 @@
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     //设置图片
     [btn setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
-//    [btn setBackgroundImage:[UIImage imageNamed:highlightImage] forState:UIControlStateHighlighted];
+    [btn setBackgroundImage:[UIImage imageNamed:highlightImage] forState:UIControlStateHighlighted];
     //设置尺寸
 //    btn.size = btn.currentBackgroundImage.size;
     btn.size = CGSizeMake(25, 22);
